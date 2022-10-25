@@ -1,16 +1,12 @@
-import React from 'react';
-import {View,Text,StyleSheet} from 'react-native';
+import { StyleSheet, Text, View } from "react-native";
+import React from "react";
+import Navigation from "./Navigation";
+import { StatusBar } from "expo-status-bar";
 
-const App = () =>{
-return (
-  <View>
-    
-  </View>
-)
-}
+const App = () => {
+  return <Navigation />;
+};
 
+export default App;
 
-const styles = StyleSheet.create({
-
-})
-export default App
+const styles = StyleSheet.create({});
